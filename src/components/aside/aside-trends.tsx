@@ -35,7 +35,7 @@ export function AsideTrends({ inTrendsPage }: AsideTrendsProps): JSX.Element {
           'hover-animation rounded-2xl bg-main-sidebar-background'
       )}
     >
-      {loading ? (
+      {/* {loading ? (
         <Loading />
       ) : trends ? (
         <motion.div
@@ -93,7 +93,7 @@ export function AsideTrends({ inTrendsPage }: AsideTrendsProps): JSX.Element {
         </motion.div>
       ) : (
         <Error />
-      )}
+      )} */}
     </section>
   );
 }
